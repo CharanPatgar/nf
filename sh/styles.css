@@ -1,0 +1,108 @@
+/* .top1{
+   
+    height: 10px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.top2{
+    
+    margin-left: 11%;
+    margin-top: 1.5%;
+
+}
+
+.lan{
+    display: flex ;
+    flex: 1;
+}
+
+.lan button{
+    width: 50px ;
+    height: 30px;
+}
+
+#languageDropdown{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.netflixLogoTitle{
+    height: 55px;
+    width: 200px;
+    
+    
+} */
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("./images/nfbg.jpg");
+}
+
+.top1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.85%;
+    align-items: center;
+}
+
+.netflixLogoTitle{
+    height: 55px;
+    width: 200px;
+    margin-left: -77%;
+}
+
+#languageDropdown{
+    background: transparent;
+    
+    padding: 10px 40px;
+    color: white;
+    font-size:larger;
+    font-weight: 400;
+}
+
+.signin{
+    
+    padding: 12px 20px;
+    border-color: transparent;
+    border-radius: 8px;
+    background: rgb(229, 9, 20);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.sel{
+    border-radius: 8px;
+
+}
+
+.lanTranslate{
+    color: white;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    height: 600px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size:60px;
+}
